@@ -1,0 +1,12 @@
+{
+  "name": "mobiledokaan",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "clean": "node -e \"require('fs').rmSync('node_modules',{recursive:true,force:true}); require('fs').rmSync('.next',{recursive:true,force:true});\""
+  }
+}
